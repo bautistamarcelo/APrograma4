@@ -12,7 +12,7 @@ document.getElementById('btnDetalleAcerca').addEventListener('click', function (
 
 document.getElementById('btnImprimeCV').addEventListener('click', function () {
     if (document.getElementById('btnImprimeCV').innerHTML == "Imprimir CV") {
-        document.getElementById('btnImprimeCV').innerHTML = "Enviado a Impresión";
+        document.getElementById('btnImprimeCV').innerHTML = "CV enviado";
         alert('Mostraría el CV en PDF para su eventual impresión');
     } else {
         document.getElementById('btnImprimeCV').innerHTML = "Imprimir CV";
