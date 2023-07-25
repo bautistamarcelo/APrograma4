@@ -71,3 +71,30 @@ print('-------------------------------------------------------------------------
 print(f'  especificando la posición (en este caso [1]), podemos reemplazar su valor y nos queda: {lista5}')
 print('----------------------------------------------------------------------------------------')
 # Ahora el valor de la lista es [7, 4, 3, 4, 5]
+
+#Si queremos eliminar un elemento que conozcamos su valor usaremos remove, en el caso de que esté repetido el valor pasado por parámetro, solo borraría el primer ítem que encontrase
+lista6 = list([7,4,3,4,5])
+lista6.remove(4)
+
+print('----------------------------------------------------------------------------------------')
+print('Para la lista [7,4,3,4,5]')
+print('----------------------------------------------------------------------------------------')
+print(f'  usando .remove(4), eliminamos el primer valor encontrado y nos queda: {lista6}')
+print('----------------------------------------------------------------------------------------')
+
+#Para eliminar por clave usaremos su posición en la lista con el método pop, si no pasamos un parámetro, eliminará el valor guardado en la última posición
+lista7 = ['z', 'x', 'm', 'r', 'b']
+lista7.pop(2) #elimina la 'm' de la lista
+
+print('----------------------------------------------------------------------------------------')
+print("Para la lista ['z', 'x', 'm', 'r', 'b']")
+print('----------------------------------------------------------------------------------------')
+print(f'  usando .pop(2), eliminamos el valor de la posición y nos queda: {lista7}')
+print('----------------------------------------------------------------------------------------')
+
+lista8 = ['z', 'x', 'm', 'r', 'b']
+lista8.pop() #elimina la 'b' de la lista
+
+print(f'  usando .pop(), eliminamos el valor de la ultima posición y nos queda: {lista8}')
+print('----------------------------------------------------------------------------------------')
+
