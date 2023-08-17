@@ -1,0 +1,13 @@
+Los nombres y apellidos son: 
+ Nombre: Marcelo
+ Apellido: Bautista
+ ----------------------------------
+ Nombre: Cecilia
+ Apellido: Aguirre
+ ----------------------------------
+ Nombre: Emilio
+ Apellido: Paez de la Torre
+ ----------------------------------
+ Nombre: Agustín
+ Apellido: De la Vega Madueño
+ ----------------------------------
