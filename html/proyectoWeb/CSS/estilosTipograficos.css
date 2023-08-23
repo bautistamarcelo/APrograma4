@@ -5,17 +5,19 @@
     padding: 20px;
 }
 h1 {
-    font-size: 20px;
+    font-size: 26px;
     font-weight: 900;
     padding-top: 20px;
+    padding-left: 20px;
     padding-bottom: 20px;
     margin: 0px;
-    background-color: #232847;
-    color: #e5e5e5;
+    background-color: #182c44;
+    color: #7693b8;
 }
 
 h2{
-    font-size: 18px;
+    margin: 20px;
+    font-size: 20px;
     font-weight: 700;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -23,6 +25,7 @@ h2{
     border-block-end-style:solid;
 }
 p{
+    margin: 20px;
     font-size: 14px;
     font-weight: 500;
     line-height: 1.5;
