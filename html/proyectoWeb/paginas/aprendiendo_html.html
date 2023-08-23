@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/estilos.css">
+    <title>Conceptos HTML</title>
+    <style>
+        table,
+        td,
+        th {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 10px;
+        }
+    </style>
+    <!--<link rel="stylesheet" href="css/estilos.css">-->
+</head>
+
+<body>
+    <div class="contenedor_principal">
+            <H1> CONCEPTOS BASICOS SOBRE HTML: </H1>
+            
+            <!-- Esto es un comentario con sus signos de apertura y cierre -->
+            <p>Esto es un párrafo que contiene un <strong>Resaltado</strong> de la palabra <em>resaltado</em></p>
+            
+            <!-- #region Enlaces:-->
+            <!-- Segmento dedicado a ver como trabajar los Enlaces-->
+            <!-- Enlace común-->
+            <br>
+            <a href="https://twitter.com/home?lang=es">twitter</a><br>
+            <h2><a href="../index.html">HOME</a></h2><br>
+            
+            <!-- Enlace en pestaña nueva-->
+            <a href="https://twitter.com/home?lang=es" target="_blank" rel="noopener noreferrer">twitter nueva pestaña
+                <img src="https://thumbs.dreamstime.com/b/zeichen-d-twitter-auf-blauem-hintergrund-35744808.jpg"
+                    alt="y esta imagen?" height="400"></a>
+            
+            <!-- Enlace con imagenes-->
+            <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
+                <img src="https://i.pinimg.com/originals/5b/d2/13/5bd213107c10d84528c20b5e825cdc9a.png" alt="y esta imagen?"
+                    height="400"></a>
+            <!-- #endregion Enlaces:-->
+            
+            <!-- #region Imagenes:-->
+            <!-- Segmento dedicado a ver como trabajar imagenes-->
+            <img src="../Imagenes/DraAguirre.jpg" alt="imagen de muestra" height="400"><br><br>
+            <video src="../Imagenes/IntroCoplitaDeAmor.mp4" controls></video>
+            <!-- #endregion Imagenes: -->
+            
+            <!-- #region Tablas:-->
+            <table class="miTabla">
+                <tr> <!-- tr permite crear una fila -->
+                    <th>Nombre</th> <!-- td permite crear la fila como título ó encabezado -->
+                    <th>Apellido</th>
+                    <th>Email</th>
+                </tr>
+                <tr>
+                    <td>Marcelo</td> <!-- td permite crear la fila -->
+                    <td rowspan="3">Bautista</td> <!-- rowspan permite combinar las celdas de una columna -->
+                    <td>email@email.com</td>
+                </tr>
+                <tr>
+                    <td>Ana Inés</td>
+                    <td>emailAnaI@email</td>
+                </tr>
+                <tr>
+                    <td>Guadalupe</td>
+                    <td>emailGuada@email</td>
+                </tr>
+                <tr>
+                    <td>Ana Cecilia</td>
+                    <td>Aguirre</td>
+                    <td>email@email.com</td>
+                </tr>
+            
+                <tr>
+                    <td colspan="2">Maria Paula Bautista Aguirre</td> <!-- colspan permite combinar las celdas de una fila -->
+                    <td>email@email.com</td>
+                </tr>
+            </table>
+            <!-- #endregion -->
+            
+            <!-- #region Listas:-->
+            <ul> <!-- ul nos permite crear una lista desordenada (que no asigna números a sus ítems)-->
+                <li>Cebolla</li><!-- li nos permite crear un ítem de la lista -->
+                <li>Huevos</li>
+                <li>Fruta <!-- de este modo se pueden crear las sublistas -->
+                    <ul>
+                        <li>Manzana</li>
+                        <li>Banana</li>
+                        <li>Peras</li>
+                    </ul>
+                </li>
+            </ul>
+            
+            <ol> <!-- ol nos permite crear una lista ordenada (que asigna números a sus ítems)-->
+                <li>Cebolla</li><!-- li nos permite crear un ítem de la lista -->
+                <li>Huevos</li>
+                <li>Fruta <!-- de este modo se pueden crear las sublistas -->
+                    <ol>
+                        <li>Manzana</li>
+                        <li>Banana</li>
+                        <li>Peras</li>
+                    </ol>
+                </li>
+            </ol>
+            <!-- #endregion Listas -->
+            
+            <!-- #region Formularios:-->
+            <form action="">
+                <!--Tipos comunes de input de textos o email-->
+                <label for="nombre">Nombre:</label> <!-- Etiqueta de un input-->
+                <input type="text" id="nombre" name="name"><br><!-- Input de tipo texto-->
+            
+                <!--Input de areas de textos ó textos largos-->
+                <label for="big_text">Textos Largos</label>
+                <textarea name="narracion" id="big_text" cols="90" rows="7"></textarea>
+            
+                <!--Tipo de input de selección ó cuadro combinado-->
+                <label for="selector">Opciones</label>
+                <select name="opciones" id="selector">
+                    <option value="red">Rojo</option>
+                    <option value="green">Verde</option>
+                    <option value="white">Blanco</option>
+                </select>
+            
+                <!--Input de Botones-->
+                <button type="submit">Botón</button>
+                <br>
+                <br>
+                <br>
+            </form>
+            
+            <!--Prueba de carga de formulario con sus controles-->
+            <form action="submit">
+                <label for="iname">Nombre:</label>
+                <input type="text" id="iname" name="iname">
+                <br>
+                <label for="ilastname">Apellido:</label>
+                <input type="text" id="ilastname" name="ilastname">
+                <br>
+                <label for="iemail">Email:</label>
+                <input type="email" id="iemail" name="iemail">
+                <br>
+                <label for="ipass">Contraseña:</label>
+                <input type="password" id="ipass" name="ipass">
+                <br>
+                <br>
+                <br>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Resetear Fomulario">
+                <br> <!--Provoca un salto de línea-->
+                <br>
+                <br>
+                <!--Tipo de input radio para selección única sobre multiples opciones-->
+                <input id="red" type="radio" name="colores" value="red">
+                <label for="red">Rojo</label>
+                <br>
+                <input id="blue" type="radio" name="colores" value="red">
+                <label for="blue">Azul</label>
+                <br>
+                <input id="green" type="radio" name="colores" value="red">
+                <label for="green">Verde</label>
+                <br>
+                <br>
+                <!--Tipo de input checkbox para selección multiple-->
+                <input id="chred" type="checkbox" name="red" value="red">
+                <label for="chred">Rojo</label>
+                <br>
+                <input id="chblue" type="checkbox" name="blue" value="red">
+                <label for="chblue">Azul</label>
+                <br>
+                <input id="chgreen" type="checkbox" name="green" value="red">
+                <label for="chgreen">Verde</label>
+                <br>
+                <input type="color" value="#7cdb73" name="color">
+                <label for="color">Elegir Color</label>
+                <br>
+                <br>
+                <input type="date" id="start" name="trip-start" value="2023-11-24" min="2022-11-24" max="2023-12-24">
+                <label for="start">Día Arranque:</label>
+                <br>
+                <input type="file" name="archivo">
+                <label for="archivo">Seleccionar archivo</label>
+                <br>
+                <input type="range" name="rango" min="0" max="30">
+                <label for="rango">Seleccione el rango</label>
+            
+            
+            </form>
+            
+            <!-- #endregion Formularios-->
+            
+            <!-- #region Bloques: -->
+            <!-- El elemento de bloque ocupa todo el ancho de la fila, comienza en una nueva
+                    <address></address> <article></article><form action=""></form><h1></h1> <div>
+                    -->
+            
+            <!-- El elemento en linea ocupa solo lo minimo requerido y sus componentes pueden
+                    ocupar una misma linea, Ej:
+                        <time>  <sub> <select>
+                    -->
+            
+            
+            <!-- #endregion Bloques:-->
+    </div>
+</body>    

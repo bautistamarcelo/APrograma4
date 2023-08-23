@@ -1,0 +1,47 @@
+@import url('normalize.css');
+
+
+.contenedorPrincipal{
+    padding: 20px;
+}
+h1 {
+    font-size: 20px;
+    font-weight: 900;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0px;
+    background-color: #232847;
+    color: #e5e5e5;
+}
+
+h2{
+    font-size: 18px;
+    font-weight: 700;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: #232847;
+    border-block-end-style:solid;
+}
+p{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.5;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.italian{
+    font-style: italic;
+}
+
+.negritas{
+    font-weight: bold;
+}
+
+.tachado{
+    padding: auto;
+}
+
+.interlineado{
+    line-height: 2.5;
+}
