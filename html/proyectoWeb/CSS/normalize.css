@@ -9,7 +9,7 @@
 html {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 90%;
-    overflow: hidden;
+    overflow:scroll;
 }
 
 /* Sections
@@ -374,5 +374,5 @@ template {
  */
 
 [hidden] {
-    display: none;
+    display:contents;
 }

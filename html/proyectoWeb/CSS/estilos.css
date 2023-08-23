@@ -34,9 +34,25 @@ nav {
 body {
     background: var(--arena);
 }
+
 h1 {
     padding: 20px;
-    margin: 25px;
+    margin: 0px;
     background-color: #182153;
     color: #e5e5e5;
+}
+
+.miTabla {
+    text-decoration-color: rgb(124, 140, 155);
+    background-color: #0e4e08;
+    color: #cfc19a;
+    border-color: #182153;
+    box-shadow: #46517a;
+    padding: 20px;
+
+}
+
+div.contenedor_principal {
+    background-color: antiquewhite;
+    padding: 30px;
 }
