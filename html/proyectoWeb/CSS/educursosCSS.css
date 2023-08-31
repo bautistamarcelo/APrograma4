@@ -1,0 +1,89 @@
+@import url('reset.css');
+
+:root {
+    --azulOscuro: #1e2853;
+    --grisAzulado: #46517a;
+    --grisClaro: #e5e5e5;
+    --arena: #fffcf2;
+    --anil: #182153;
+}
+
+@font-face {
+    font-family: EngraversGothicBT, Dubai, Candara;
+    src: url(../Fonts/EngraversGothicBT.ttf) format('truetype'),
+    url(../Fonts/DUBAI-MEDIUM.TTF),
+    url(../Fonts/Candara.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+}
+
+body {
+    background: var(--arena);
+}
+
+h1 {
+    padding: 20px;
+    margin: 0px;
+    background-color: #182153;
+    color: #e5e5e5;
+}
+h2{
+    
+    padding: 10px;
+    margin: 0px;
+    background-color: #182153;
+    color: #ccc3c3;
+    border-radius: 16px 16px 0px 0px;
+}
+
+.caja {
+    border-width: 2px;
+    border-style: solid;
+    border-color: #182153;
+    margin: 30px;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-radius: 16px;
+}
+
+.bordes{
+    border-width: 2px;
+    border-style: solid;
+    border-color: #182153;
+    height: 150px;
+    width: 400px;
+    margin: 30px;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    box-shadow: 25px 25px 35px rgb(43, 50, 70), inset 15px 15px 20px rgb(231, 211, 211),
+            inset -22px -22px 25px rgb(116, 100, 100);
+    border-radius: 16px;
+}
+
+.fondosImagenes{
+    background-image: url(../imagenes/DraAguirre.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #182153;
+    height: 400px;
+    width: 500px;
+    margin: 30px;
+    border-radius: 16px;
+    box-shadow: 25px 25px 35px rgb(43, 50, 70);
+}
+

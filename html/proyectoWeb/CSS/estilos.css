@@ -55,8 +55,25 @@ h1 {
 div.contenedor_principal {
     background-color: antiquewhite;
     padding: 30px;
+    box-shadow: 15px 15px 25px rgb(43,50,70);
 }
 form{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 12px;
+}
+
+.caja{
+    border-width: 2px;
+    border-style: solid;
+    border-color: #182153;
+    height: 150px;
+    width: 400px;
+    margin: 30px;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-radius: 16px;
+    box-shadow: 25px 25px 35px rgb(43, 50, 70), inset 15px 15px 20px rgb(231, 211, 211),
+    inset -22px -22px 25px rgb(116, 100, 100);
 }
