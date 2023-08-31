@@ -1,4 +1,10 @@
 @import url('reset.css');
+@font-face {
+    font-family: EngraversGothicBT, Dubai, Candara;
+    src: url(../Fonts/EngraversGothicBT.ttf) format('truetype'),
+        url(../Fonts/DUBAI-MEDIUM.TTF),
+        url(../Fonts/Candara.ttf);
+}
 
 :root {
     --azulOscuro: #1e2853;
@@ -6,13 +12,6 @@
     --grisClaro: #e5e5e5;
     --arena: #fffcf2;
     --anil: #182153;
-}
-
-@font-face {
-    font-family: EngraversGothicBT, Dubai, Candara;
-    src: url(../Fonts/EngraversGothicBT.ttf) format('truetype'),
-    url(../Fonts/DUBAI-MEDIUM.TTF),
-    url(../Fonts/Candara.ttf);
 }
 
 * {
