@@ -1,7 +1,6 @@
 
 .hero{
     position: relative;
-    border: 1px solid red;
     padding-bottom: 4rem;
 }
 .plate-wrapper{
@@ -72,3 +71,7 @@
     transform: rotate(-15deg) translate(10%, 30%);
 }
 
+.logo-bar{
+    position: absolute;
+    top: 0;
+}
