@@ -50,6 +50,16 @@
     padding: 0.75em 1.5em;
     border-radius: 20px;
     width: fit-content;
+    border: 1px solid var(--dark-color);
+    transition: all;
+    transition-duration: 300ms;
+}
+
+.hero-button:hover{
+    cursor: pointer;
+    background-color: var(--primary-color);
+    color: var(--dark-color);
+    scale: 1.1;
 
 }
 
@@ -75,3 +85,4 @@
     position: absolute;
     top: 0;
 }
+
