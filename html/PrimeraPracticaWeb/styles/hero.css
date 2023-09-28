@@ -2,12 +2,15 @@
 .hero{
     position: relative;
     padding-bottom: 4rem;
+    border: 1px solid red;
 }
 .plate-wrapper{
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
+    border-style: solid;
+    border: 1px solid black;
 }
 
 .plate-img{
@@ -35,7 +38,7 @@
     align-items: center;
     gap: 1.5rem;
     width: 100%;
-    
+    border: 1px solid black;
 }
 
 .hero-title {

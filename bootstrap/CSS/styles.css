@@ -1,0 +1,19 @@
+.cursos a.btn{
+    padding: 0.5rem 2rem;
+    color: black;
+    background-color: #36b6ff;
+    border: #1a5a7e solid 0.1rem;
+    transition: all;
+    transition-duration: 200ms;
+}
+
+.cursos a.btn:hover{
+    scale: 1.065;
+    background-color: #1a5a7e;
+    border: #1a5a7e;
+    color: #36b6ff;
+}
+
+h4{
+    text-decoration: line-through;
+}
